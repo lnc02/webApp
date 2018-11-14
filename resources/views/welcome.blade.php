@@ -64,6 +64,10 @@
         </style>
     </head>
     <body>
+        <div id="kopfbereich">
+            <img src="image/Kopf_Intern.png" id="logo" alt="Klinik für Stereotaxie" style="width: 50%; height: auto;">
+        </div>
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -80,7 +84,7 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
+                <div class="title m-k-md">
                     Willkommen auf der Seite der<br>Klinik für Stereotaxie und Funktionelle Neurochirurgie
                 </div>
             </div>

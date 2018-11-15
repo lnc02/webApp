@@ -61,6 +61,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .textbody {
+                font-size: 60px;
+                margin-bottom: 30px;
+            }
         </style>
     </head>
     <body>
@@ -84,8 +89,8 @@
             @endif
 
             <div class="content">
-                <div class="title m-k-md">
-                    Willkommen auf der Seite der<br>Klinik für Stereotaxie und Funktionelle Neurochirurgie
+                <div class="textbody">
+                    Willkommen auf der internen Seite der<br>Klinik für Stereotaxie und Funktionelle Neurochirurgie
                 </div>
             </div>
         </div>
